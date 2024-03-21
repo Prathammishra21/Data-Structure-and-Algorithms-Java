@@ -1,9 +1,11 @@
+package DSA_Searching_Algorithms;
+
 public class Linear_Search {
-    static void linear_search(int[] a, int n, int key) {
+    public static void linear_search(int[] a, int n, int key) {
         int i, count = 0;
-        for(i = 0; i < n; i++) {
+        for(i = 0; i <= n; i++) {
             if(a[i] == key) {
-                System.out.println("The element is found at " + (i+1)+ " index");
+                System.out.println("The element is found at " + (i)+ " index");
                 count = count + 1;
             }
         }
@@ -16,7 +18,7 @@ public class Linear_Search {
         int[] a = {12, 44, 32, 18, 4, 10, 66};
         key = 10;
         linear_search(a, n, key);
-        key = 54;
+        key = 61;
         linear_search(a, n, key);
     }
 }

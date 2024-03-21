@@ -1,5 +1,7 @@
+package DSA_Stack_Queue;
+
 public class Queue_Implementation {
-    int size = 1;
+    int size = 10;
     int[] items = new int[size];
     int front, rear;
 
@@ -15,7 +17,6 @@ public class Queue_Implementation {
     public boolean isEmpty() {
         return front == -1;
     }
-
 
     public void enqueue(int element) {
         if (isFull()) {
@@ -54,9 +55,9 @@ public class Queue_Implementation {
         } else {
             System.out.println("\nFront index-> " + front);
             System.out.println("Items -> ");
-            for (i = front; i <= rear; i++)
+            for (i = front; i <= rear; i++) {
                 System.out.print(items[i] + "  ");
-
+            }
             System.out.println("\nRear index-> " + rear);
         }
     }
