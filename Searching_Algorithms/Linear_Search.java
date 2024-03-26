@@ -1,4 +1,4 @@
-package DSA_Searching_Algorithms;
+package Searching_Algorithms;
 
 public class Linear_Search {
     public static void linear_search(int[] a, int n, int key) {

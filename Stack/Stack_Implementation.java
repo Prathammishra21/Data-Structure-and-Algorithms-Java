@@ -1,4 +1,4 @@
-package DSA_Stack_Queue;
+package Stack;
 
 public class Stack_Implementation {
     private static int[] arr;

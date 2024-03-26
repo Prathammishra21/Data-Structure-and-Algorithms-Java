@@ -1,4 +1,4 @@
-package DSA_Searching_Algorithms;
+package Searching_Algorithms;
 public class Binary_Search {
     public static void binary_search(int []a, int low, int high, int key) {
         int mid = (low + high) / 2;

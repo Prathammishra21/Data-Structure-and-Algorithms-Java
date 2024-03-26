@@ -1,4 +1,4 @@
-package DSA_Array;
+package Array;
 
 public class Array_Implementation {
         public static void main(String []args) {

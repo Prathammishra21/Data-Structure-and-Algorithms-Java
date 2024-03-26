@@ -1,4 +1,4 @@
-package DSA_Stack_Queue;
+package Queue;
 
 public class Queue_Implementation {
     int size = 10;
